@@ -1,10 +1,21 @@
+# all hidden files and folders starting with a period (.)
+.*
+.*/
+
+# venv files
+pyvenv.cfg
+Scripts/
+Lib/
+Include/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
+# additional files
+share/
+Share/
 
 # Distribution / packaging
 .Python
