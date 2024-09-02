@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-wgc3=n_k*vi=#q%p)+2=btxl9t7d=o6712ftdgk0=i*v_+%2w=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',       # Allows requests from localhost
+    '127.0.0.1',       # Allows requests from the local machine (loopback address)
+    'ahmadghdeeb.pythonanywhere.com',     # Allows requests from the online hosting
+]
 
 
 # Application definition
